@@ -1,0 +1,51 @@
+:root {
+  --md-primary-fg-color:        #275D38;
+  --md-primary-fg-color--light: #3a7a4e;
+  --md-primary-fg-color--dark:  #1a3f26;
+  --md-accent-fg-color:         #C8922A;
+}
+
+.md-header { background-color: #275D38; }
+.md-tabs   { background-color: #1a3f26; }
+
+/* Dataset cards */
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+.dataset-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2rem;
+  background: #fafafa;
+  transition: box-shadow .2s;
+}
+.dataset-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.dataset-card h3    { margin: 0 0 .4rem; font-size: 1rem; color: #275D38; }
+.dataset-card p     { margin: 0 0 .6rem; font-size: .88rem; color: #444; }
+.dataset-card .meta { font-size: .8rem; color: #666; }
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: .18rem .55rem;
+  border-radius: 12px;
+  font-size: .75rem;
+  font-weight: 600;
+  margin-right: .3rem;
+}
+.badge-green  { background: #d4edda; color: #155724; }
+.badge-blue   { background: #cce5ff; color: #004085; }
+.badge-orange { background: #fff3cd; color: #856404; }
+.badge-red    { background: #f8d7da; color: #721c24; }
+.badge-grey   { background: #e2e3e5; color: #383d41; }
+
+.contact-box {
+  background: #f0f7f2;
+  border-left: 4px solid #275D38;
+  padding: 1rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+}
