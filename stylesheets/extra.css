@@ -91,6 +91,18 @@ body {
   margin: 1.5rem 0;
 }
 
+/* Category two-column block */
+.cat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 2rem;
+  align-items: start;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 900px) { .cat-grid { grid-template-columns: 1fr; } }
+.cat-grid table { width: 100%; }
+.cat-grid img { width: 100%; border-radius: 12px; margin-bottom: 1rem; }
+
 /* About two-column block */
 .about-grid {
   display: grid;
