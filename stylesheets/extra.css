@@ -91,6 +91,25 @@ body {
   margin: 1.5rem 0;
 }
 
+/* About two-column block */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin: 1rem 0 1.5rem;
+}
+@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } }
+.about-grid img { width: 100%; border-radius: 12px; margin-bottom: 1rem; }
+.about-quote {
+  border-left: 4px solid #C8922A;
+  padding: .6rem 1rem;
+  margin: 1rem 0;
+  background: #f7f4ec;
+  font-style: italic;
+  color: #3d3d3d;
+}
+
 /* Page banner images */
 .page-banner {
   width: 100%;
