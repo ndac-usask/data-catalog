@@ -7,6 +7,15 @@
 
 .md-header { background-color: #275D38; }
 .md-tabs   { background-color: #1a3f26; }
+
+/* Use wide screens: let content grow instead of leaving blank margins */
+.md-grid { max-width: 100rem; }
+body {
+  background:
+    radial-gradient(ellipse at top left,  rgba(39, 93, 56, .07), transparent 45%),
+    radial-gradient(ellipse at bottom right, rgba(200, 146, 42, .08), transparent 45%),
+    linear-gradient(180deg, #fbfdfb 0%, #f0f5f1 100%);
+}
 .md-header__button.md-logo img { height: 4.4rem; width: auto; border-radius: 3px; }
 
 /* Hero */
