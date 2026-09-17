@@ -7,7 +7,7 @@
 
 .md-header { background-color: #275D38; }
 .md-tabs   { background-color: #1a3f26; }
-.md-header__button.md-logo img { height: 2.2rem; width: auto; border-radius: 3px; }
+.md-header__button.md-logo img { height: 4.4rem; width: auto; border-radius: 3px; }
 
 /* Hero */
 .ndac-hero {
@@ -21,8 +21,8 @@
 .ndac-hero p  { color: #e8f0ea; max-width: 42rem; }
 .ndac-hero .gold { color: #C8922A; font-weight: 700; }
 .ndac-logos { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
-.ndac-logos img.ndac  { height: 72px; border-radius: 6px; }
-.ndac-logos img.usask { height: 60px; background: #fff; border-radius: 6px; padding: 6px 12px; }
+.ndac-logos img.ndac  { height: 144px; border-radius: 6px; }
+.ndac-logos img.usask { height: 120px; background: #fff; border-radius: 6px; padding: 6px 12px; }
 
 /* Stat tiles */
 .stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.4rem 0; }
@@ -82,4 +82,4 @@
 
 /* Footer logos */
 .ndac-footer-logos { display: flex; align-items: center; gap: 1rem; margin: 2rem 0 0; }
-.ndac-footer-logos img { height: 40px; background: #fff; border-radius: 4px; padding: 4px 8px; }
+.ndac-footer-logos img { height: 80px; background: #fff; border-radius: 4px; padding: 4px 8px; }
