@@ -1,0 +1,85 @@
+:root {
+  --md-primary-fg-color:        #275D38;
+  --md-primary-fg-color--light: #3a7a4e;
+  --md-primary-fg-color--dark:  #1a3f26;
+  --md-accent-fg-color:         #C8922A;
+}
+
+.md-header { background-color: #275D38; }
+.md-tabs   { background-color: #1a3f26; }
+.md-header__button.md-logo img { height: 2.2rem; width: auto; border-radius: 3px; }
+
+/* Hero */
+.ndac-hero {
+  background: linear-gradient(135deg, #1a3f26 0%, #275D38 60%, #3a7a4e 100%);
+  border-radius: 12px;
+  padding: 2.2rem 2rem;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+.ndac-hero h1 { color: #fff; margin: 0 0 .4rem; }
+.ndac-hero p  { color: #e8f0ea; max-width: 42rem; }
+.ndac-hero .gold { color: #C8922A; font-weight: 700; }
+.ndac-logos { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.ndac-logos img.ndac  { height: 72px; border-radius: 6px; }
+.ndac-logos img.usask { height: 60px; background: #fff; border-radius: 6px; padding: 6px 12px; }
+
+/* Stat tiles */
+.stat-row { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.4rem 0; }
+.stat-tile {
+  flex: 1 1 130px;
+  background: #f0f7f2;
+  border-top: 3px solid #C8922A;
+  border-radius: 8px;
+  padding: .9rem 1.1rem;
+  text-align: center;
+}
+.stat-tile .num   { font-size: 1.7rem; font-weight: 700; color: #275D38; display: block; }
+.stat-tile .label { font-size: .78rem; color: #555; }
+
+/* Dataset cards */
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0 2rem;
+}
+.dataset-card {
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid #275D38;
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  background: #fafafa;
+  transition: box-shadow .2s;
+}
+.dataset-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.dataset-card h3    { margin: 0 0 .4rem; font-size: 1rem; color: #275D38; }
+.dataset-card p     { margin: 0 0 .6rem; font-size: .86rem; color: #444; }
+.dataset-card .meta { font-size: .78rem; color: #666; }
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: .18rem .55rem;
+  border-radius: 12px;
+  font-size: .75rem;
+  font-weight: 600;
+  margin-right: .3rem;
+}
+.badge-green  { background: #d4edda; color: #155724; }
+.badge-blue   { background: #cce5ff; color: #004085; }
+.badge-orange { background: #fff3cd; color: #856404; }
+.badge-red    { background: #f8d7da; color: #721c24; }
+.badge-grey   { background: #e2e3e5; color: #383d41; }
+
+.contact-box {
+  background: #f0f7f2;
+  border-left: 4px solid #275D38;
+  padding: 1rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+}
+
+/* Footer logos */
+.ndac-footer-logos { display: flex; align-items: center; gap: 1rem; margin: 2rem 0 0; }
+.ndac-footer-logos img { height: 40px; background: #fff; border-radius: 4px; padding: 4px 8px; }
